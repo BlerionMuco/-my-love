@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💝 Valentine's Day Surprise
 
-## Getting Started
+A cute and interactive Valentine's Day page to ask that special someone to be your Valentine!
 
-First, run the development server:
+## ✨ Features
+
+- Beautiful pink gradient background with floating hearts
+- Interactive "No" button that moves away when hovered (she can't say no! 😄)
+- Cute notification messages that appear when trying to click "No"
+- Adorable thank you page with animations after clicking "Yes"
+- Fully responsive design
+- Built with Next.js 16 and Tailwind CSS 4
+
+## 🚀 Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Deploy to Vercel (FREE!)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The easiest way to deploy this Next.js app is to use Vercel:
 
-## Learn More
+1. Push your code to a GitHub repository
+2. Go to [vercel.com](https://vercel.com)
+3. Sign up or log in with your GitHub account
+4. Click "Add New Project"
+5. Import your GitHub repository
+6. Vercel will automatically detect Next.js and configure everything
+7. Click "Deploy"
 
-To learn more about Next.js, take a look at the following resources:
+That's it! Your Valentine's surprise will be live in minutes! 💕
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Alternatively, you can use the Vercel CLI:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm install -g vercel
+vercel
+```
 
-## Deploy on Vercel
+## 📱 How It Works
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- When your girlfriend hovers over the "No" button, it moves to a random position on the screen
+- Each time she tries to hover on "No", a cute message pops up
+- The "Yes" button stays in place and is easy to click
+- After clicking "Yes", a beautiful thank you page appears with floating hearts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💖 Perfect for Valentine's Day 2026!
+
+Made with love ❤️
